@@ -1,5 +1,5 @@
 import './styles.css'
-import KITTY_IMG from '../src/assets/kitty.jpg'
+import kitty from '../src/assets/kitty.jpg'
 //import react librerary core
 import React from 'react'
 //react dom allows us to write JSX for web browsers
