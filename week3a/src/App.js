@@ -3,10 +3,17 @@ const App = ()=>{
   return (
     <>
       <div>
-        <Button primary outline>A</Button>
+        <Button
+          primary
+            onClick={() => {
+              console.log('CLICK')
+            }}
+          >
+            buy now
+        </Button>
       </div>
       <div>
-        <Button secondary rounded>A</Button>
+        <Button secondary rounded className="fixed right-0 bottom-0">hello</Button>
       </div>
       <div>
         <Button danger>A</Button>
